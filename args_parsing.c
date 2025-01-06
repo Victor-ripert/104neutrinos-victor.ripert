@@ -17,7 +17,7 @@ int arg_parsing(int argc, char **argv, neutrinos_t *data)
             return 84;
         }
     }
-    data->nb_values = atoi(argv[1]);
+    data->nb_val = atoi(argv[1]);
     data->a_mean = atof(argv[2]);
     data->h_mean = atof(argv[3]);
     data->st_dev = atof(argv[4]);

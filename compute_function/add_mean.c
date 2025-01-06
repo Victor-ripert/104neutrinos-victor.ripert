@@ -12,6 +12,5 @@ double add_mean(int nb_value, double mean, double new_value)
     double new_mean = 0;
 
     new_mean = ((nb_value * mean) + new_value) / (nb_value + 1);
-    // printf("%d * %f + %f / %d = %f\n", nb_value, mean, new_value, nb_value + 1, new_mean);
     return new_mean;
 }

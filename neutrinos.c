@@ -21,7 +21,8 @@ int neutrinos(int argc, char **argv)
         new_value_return = get_newvalue(&new_value);
         if (new_value_return < 0) {
             return 84;
-        } else if (new_value_return == 1) {
+        }
+        if (new_value_return == 1) {
             return 0;
         }
         compute_loop(&data, new_value);

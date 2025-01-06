@@ -1,8 +1,7 @@
 ##
 ## EPITECH PROJECT, 2024
 ## Makefile
-## File descriptio
-n:
+## File description:
 ## make units tests
 ##
 
@@ -46,4 +45,6 @@ fclean:	clean
 re:	fclean  all
 
 coding_style: fclean
-	clear && ../../coding-style.sh . && cat coding-style-reports.log && rm -f coding-style-reports.log
+	clear && ../../coding-style.sh .
+	cat coding-style-reports.log
+	@rm -f coding-style-reports.log

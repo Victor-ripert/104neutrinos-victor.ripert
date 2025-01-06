@@ -10,8 +10,7 @@
 
 int display(neutrinos_t data)
 {
-
-    printf("    Number of values:   %d\n", data.nb_values);
+    printf("    Number of values:   %d\n", data.nb_val);
     printf("    Standard deviation: %.2f\n", data.st_dev);
     printf("    Arithmetic mean:    %.2f\n", data.a_mean);
     printf("    Root mean square:   %.2f\n", data.rs_mean);
