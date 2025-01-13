@@ -9,10 +9,10 @@
     #define NEUTRINOS_H
 typedef struct neutrinos_s {
     int nb_val;
-    float a_mean;
-    float rs_mean;
-    float h_mean;
-    float st_dev;
+    double a_mean;
+    double rs_mean;
+    double h_mean;
+    double st_dev;
 } neutrinos_t;
 int neutrinos(int argc, char **argv);
 int get_newvalue(double *value);
